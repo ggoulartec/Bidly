@@ -11,10 +11,10 @@
 </head>
 <body class="flex flex-col relative min-h-full bg-gray-200 dark:bg-gray-400 justify-center m-4">
 <header class="flex justify-between items-center min-h-full bg-cyan-950 dark:bg-gray-900 rounded-lg p-4 pb-5">
-    <div class="flex items-center justify-center gap-4">
+    <a href="/" class="flex items-center justify-center gap-4">
         <img src="{{ asset('img/logo.png') }}" alt="logo" class="h-[50px] w-full object-contain rounded-lg">
-        <a href="/" class="text-2xl dark:text-gray-300 text-white">Bidly</a>
-    </div>
+        <span class="text-2xl dark:text-gray-300 text-white">Bidly</span>
+    </a>
     <div class="flex gap-4">
         <button
             class="toggle flex h-fit items-center cursor-pointer gap-2 p-2 rounded-lg text-white bg-cyan-800 dark:bg-gray-500 dark:text-white shadow hover:shadow-amber-300 hover:text-amber-300 transition-all duration-300 ease-in dark:hover:shadow-blue-300 dark:hover:text-blue-300">
